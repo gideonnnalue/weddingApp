@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item />
+        <item android:id="@+id/countdown"
+            android:icon="@drawable/ic_countdown"
+            android:title="Countdown"/>
+        <item android:id="@+id/location"
+            android:icon="@drawable/ic_location"
+            android:title="Location"/>
+        <item android:id="@+id/engage_pics"
+            android:icon="@drawable/ic_countdown"
+            android:title="Engagement" />
+        <item android:id="@+id/wedding_party"
+            android:icon="@drawable/ic_countdown"
+            android:title="Wedding Party" />
+        <item android:id="@+id/our_story"
+            android:icon="@drawable/ic_countdown"
+            android:title="Our story" />
+        <item android:id="@+id/toast"
+            android:icon="@drawable/ic_countdown"
+            android:title="Toast" />
+        <item android:id="@+id/couple_pics"
+            android:icon="@drawable/ic_countdown"
+            android:title="Couple pictures" />
+    </group>
+
+</menu>
