@@ -93,7 +93,9 @@ public class CountdownFragment extends Fragment {
         get_location_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri gmmIntentUri = Uri.parse("geo:9.088168,7.4225648");
+//                Uri gmmIntentUri = Uri.parse("geo:9.088168,7.4225648");
+                Uri gmmIntentUri = Uri.parse("google.navigation:q=9.088168,7.4225648");
+
                 Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
                 mapIntent.setPackage("com.google.android.apps.maps");
                 if (mapIntent.resolveActivity(getActivity().getPackageManager()) != null) {

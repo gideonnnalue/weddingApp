@@ -84,7 +84,8 @@ public class LocationFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getContext(), "Traditional wedding location", Toast.LENGTH_SHORT).show();
-                Uri gmmIntentUri = Uri.parse("geo:9.0205,7.5843");
+//                Uri gmmIntentUri = Uri.parse("geo:9.0205,7.5843");
+                Uri gmmIntentUri = Uri.parse("google.navigation:q=9.0205,7.5843");
                 Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
                 mapIntent.setPackage("com.google.android.apps.maps");
                 if (mapIntent.resolveActivity(getActivity().getPackageManager()) != null) {
@@ -113,7 +114,8 @@ public class LocationFragment extends Fragment {
         mainLocBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri gmmIntentUri = Uri.parse("geo:9.088168,7.4225648");
+//                Uri gmmIntentUri = Uri.parse("geo:9.088168,7.4225648");
+                Uri gmmIntentUri = Uri.parse("google.navigation:q=9.088168,7.4225648");
                 Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
                 mapIntent.setPackage("com.google.android.apps.maps");
                 if (mapIntent.resolveActivity(getActivity().getPackageManager()) != null) {
@@ -125,7 +127,8 @@ public class LocationFragment extends Fragment {
         recLocBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri gmmIntentUri = Uri.parse("geo:9.0791,7.3989431");
+//                Uri gmmIntentUri = Uri.parse("geo:9.0791,7.3989431");
+                Uri gmmIntentUri = Uri.parse("google.navigation:q=9.0791,7.3989431");
                 Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
                 mapIntent.setPackage("com.google.android.apps.maps");
                 if (mapIntent.resolveActivity(getActivity().getPackageManager()) != null) {
