@@ -13,7 +13,10 @@
             android:title="Location"/>
         <item android:id="@+id/engage_pics"
             android:icon="@drawable/ic_countdown"
-            android:title="Engagement" />
+            android:title="Engagement Pictures" />
+        <item android:id="@+id/engage_vids"
+            android:icon="@drawable/ic_countdown"
+            android:title="Engagement Video" />
         <item android:id="@+id/wedding_party"
             android:icon="@drawable/ic_countdown"
             android:title="Wedding Party" />

@@ -34,7 +34,11 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".EngagementVideoActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".activity.WeddingActivity"/>
+        <activity android:name=".EngagementPicsActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".activity.WeddingActivity"/>
     </application>
 
 </manifest>

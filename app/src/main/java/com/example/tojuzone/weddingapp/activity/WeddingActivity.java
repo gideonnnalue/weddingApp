@@ -14,6 +14,7 @@ import android.view.MenuItem;
 import android.view.Window;
 import android.view.WindowManager;
 
+import com.example.tojuzone.weddingapp.EngagementPicsActivity;
 import com.example.tojuzone.weddingapp.EngagementVideoActivity;
 import com.example.tojuzone.weddingapp.OurStoryFragment;
 import com.example.tojuzone.weddingapp.WeddingPartyFragment;
@@ -77,8 +78,14 @@ public class WeddingActivity extends AppCompatActivity implements NavigationView
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new LocationFragment()).commit();
                 setTitle("Location");
                 break;
+            case R.id.engage_vids:
+                Intent vidIntent = new Intent(this, EngagementVideoActivity.class);
+                startActivity(vidIntent);
+//                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new EngagementPicsFragment()).commit();
+//                setTitle("Engagement");
+                break;
             case R.id.engage_pics:
-                Intent intent = new Intent(this, EngagementVideoActivity.class);
+                Intent intent = new Intent(this, EngagementPicsActivity.class);
                 startActivity(intent);
 //                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new EngagementPicsFragment()).commit();
 //                setTitle("Engagement");

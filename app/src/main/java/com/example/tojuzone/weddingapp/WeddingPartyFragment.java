@@ -63,7 +63,7 @@ public class WeddingPartyFragment extends Fragment {
      */
     private ArrayList<ImageItem> getData() {
         final ArrayList<ImageItem> imageItems = new ArrayList<>();
-        String names[] = {"Salihu Barbara", "Oyinkansola Fatogun", "Omoogun Loveth Jokotola", "Salihu Veronica", "Jennifer Anjorin", "Tamunu Doubra"};
+        String names[] = {"Salihu Barbara", "Oyinkansola Fatogun", "Omoogun Loveth Jokotola", "Salihu Veronica", "Jennifer Anjorin", "Tamunu Doubra", "Squadron Leader Mike Oyadougha", "Sanni Abass", "Major Thompson Araki", "Lawrence", "Major George Egbe Usibe", "Hon Nnaji Paul Chidozie"};
         TypedArray imgs = getResources().obtainTypedArray(R.array.image_ids);
         for (int i = 0; i < imgs.length(); i++) {
             Bitmap bitmap = BitmapFactory.decodeResource(getResources(), imgs.getResourceId(i, -1));

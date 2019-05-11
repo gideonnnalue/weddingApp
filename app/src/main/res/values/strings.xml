@@ -14,6 +14,12 @@
         <item>@drawable/veronica</item>
         <item>@drawable/anjorin</item>
         <item>@drawable/doubra</item>
+        <item>@drawable/oyadougha</item>
+        <item>@drawable/abass</item>
+        <item>@drawable/araki</item>
+        <item>@drawable/lawrence</item>
+        <item>@drawable/usibe</item>
+        <item>@drawable/chidozie</item>
     </string-array>
 
 </resources>
